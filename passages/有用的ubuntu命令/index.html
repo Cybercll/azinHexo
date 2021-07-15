@@ -184,6 +184,7 @@
   <article class="passage-article">
     <h2 id="iptables"><a href="#iptables" class="headerlink" title="iptables"></a>iptables</h2><p>service iptables stop  关闭iptables 服务 （仅仅是关闭服务 限制依然在）<br>service iptables start  启动iptables 服务<br>iptables -P INPUT ACCEPT 入站全部接受<br>iptables -P OUTPUT ACCEPT 出站全部接受</p>
 <h2 id="网络配置位置"><a href="#网络配置位置" class="headerlink" title="网络配置位置"></a>网络配置位置</h2><p>sudo vim /etc/network/interfaces</p>
+<h2 id="网络优先使用ipv4"><a href="#网络优先使用ipv4" class="headerlink" title="网络优先使用ipv4"></a>网络优先使用ipv4</h2><p>cd /etc | sudo vim gai.conf<br>取消注释 For sites which prefer IPv4 connections change the last line to 下面一行的<br>precedence ::ffff:0……</p>
 <h2 id="更多"><a href="#更多" class="headerlink" title="更多"></a>更多</h2><p>百度 bing</p>
 <p>不断填充中~</p>
 
@@ -194,7 +195,7 @@
     <span>目录</span>
   </div>
   <div class="table-content-main">
-    <ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#iptables"><span class="toc-text">iptables</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#网络配置位置"><span class="toc-text">网络配置位置</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#更多"><span class="toc-text">更多</span></a></li></ol>
+    <ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#iptables"><span class="toc-text">iptables</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#网络配置位置"><span class="toc-text">网络配置位置</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#网络优先使用ipv4"><span class="toc-text">网络优先使用ipv4</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#更多"><span class="toc-text">更多</span></a></li></ol>
   </div>
 </aside>
   
